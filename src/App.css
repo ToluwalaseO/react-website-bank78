@@ -34,7 +34,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   position: relative;
-  right:500px;
+  right:490px;
 }
 
 .nav {
@@ -88,7 +88,11 @@ body {
   color: #000;
   border:3px;
 }
-
+.whole{
+  background-color: white;
+  border-radius: 24px;
+  
+}
 .hero {
   text-align: center;
   margin-bottom: 2rem;
@@ -145,12 +149,13 @@ body {
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 14px;
+  border-radius: 24px;
   cursor: pointer;
   position: relative;
-  top:130px;
-  right:500px;
-  width:400;
+  top:180px;
+  right:350px;
+  height:45px;
+  width:700px;
 }
 
 .get-free-btn:hover {
@@ -162,6 +167,16 @@ body {
   justify-content: center;
   gap: 1.5rem;
   margin: 2rem 0;
+}
+
+.Aiptag{
+  border-radius: 10px;
+  border: 3px solid black;
+  position: relative;
+  bottom: 40px;
+  left:675px;
+  width: 40px;
+  padding: 5px;
 }
 
 .feature-card {
@@ -194,9 +209,11 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   position:relative;
-  left:300px;
-  bottom: 140px;
-  width:5px;
+  bottom: 568px;
+  left: 650px;
+  height: 368px;
+  width:280px;
+  border-radius: 24px;
   
 }
 
@@ -204,12 +221,83 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.widget-icon,
-.chart {
-  font-size: 2rem;
-  color: #007bff;
-}
+
 
 .Aimage{
+  position:relative;
+  left:650px;
+  bottom: 600px;
+}
+.Aimage img{
+height:400px;
+width:680px;
+border-radius: 18px;
   
+}
+
+
+.check{
+  height:300px;
+  border-radius: 24px;  
+}
+
+.widget-icon{
+  position: relative;
+  height: 200px;
+}
+
+
+.widget h3{
+  position: relative;
+  top:250px;
+  background-color:#ececec;
+  border-radius: 24px;
+  height: 35px;
+}
+
+.widget h4{
+  background-color:#ececec;
+  border-radius: 24px;
+  height: 180px;
+  font-size: 60px;
+  bottom: 70px;
+  position: relative;
+}
+
+.imageer{
+  position: relative;
+  left:130px;
+  bottom: 160px;;
+  background-color: #ececec;
+  height: 400px;
+  width: 350px;
+  border-radius: 24px;
+}
+.imageer img{
+  height:300px;
+  width:300px;
+  position: relative;
+  top:60px;
+  left:24px;
+}
+
+.features{
+  position: relative;
+  bottom: 1000px;
+  width: 500px;
+}
+
+.feature-card1{
+  width:300px;
+  height: 700px;
+  position: relative;
+  left:100px;
+}
+
+.feature-card2{
+  width:300px;
+  height: 700px;
+  position: relative;
+  left:50px;
+  top:150px;
 }
