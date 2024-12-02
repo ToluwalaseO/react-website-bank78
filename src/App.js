@@ -58,14 +58,19 @@ const App = () => {
           </div>
         </section>
         <div className="widget">
-            <h3>AI - Assistant</h3>
+           <div className="jim">
+           <h3>AI - Assistant</h3>
+           </div>
+            <div className="mj">
             <h4>🔵</h4>
+            </div>
             <section className="features">
           <div className="feature-card1">
-            <h3><i className="fa fa-university" style={{ fontSize: "30px" }}></i>Digital Banking</h3>
+            <h3><i className="fa fa-university" style={{ fontSize: "18px", padding:"8px" }}></i>Digital Banking</h3>
           </div>
           <div className="feature-card2">
-            <h3><i className="fa fa-link" style={{ fontSize: "30px" }}></i>Seamless Integration</h3>
+            
+            <h3><i className="fa fa-link" style={{ fontSize: "18px", padding:"8px" }}></i>Seamless Integration</h3>
           </div>
         </section>
           </div>

@@ -139,8 +139,10 @@ body {
 }
 .stat p{
   position: relative;
-  right:10px;
+  right:0px;
   bottom: 12px;
+  width:200px;
+  text-align: left;
 
 }
 
@@ -249,6 +251,13 @@ border-radius: 18px;
 
 .widget h3{
   position: relative;
+  top:6px;
+ 
+}
+
+
+.jim{
+  position: relative;
   top:250px;
   background-color:#ececec;
   border-radius: 24px;
@@ -256,6 +265,15 @@ border-radius: 18px;
 }
 
 .widget h4{
+  /* background-color:#ececec;
+  border-radius: 24px;
+  height: 180px;
+  font-size: 60px; */
+  top: 50px;
+  position: relative;
+}
+
+.mj{
   background-color:#ececec;
   border-radius: 24px;
   height: 180px;
@@ -284,20 +302,41 @@ border-radius: 18px;
 .features{
   position: relative;
   bottom: 1000px;
-  width: 500px;
+  /* width: 500px; */
+  z-index: 10;
 }
 
 .feature-card1{
   width:300px;
-  height: 700px;
-  position: relative;
+  height: 50px; 
+  top:330px;
+  position: absolute;
   left:100px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  /* padding: 6px; */
+  text-align: center;
+  border-radius: 14px;
+  flex: 1;
+  max-width: 300px;
 }
 
 .feature-card2{
   width:300px;
-  height: 700px;
-  position: relative;
-  left:50px;
-  top:150px;
+  /* height: 700px; */
+  position: absolute;
+  left:230px;
+  top:430px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 14px;
+
+  max-width: 300px;
 }
+
+
+.feature-card1 h3{
+
+}
+
