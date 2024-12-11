@@ -19,8 +19,10 @@ const App = () => {
       </header>
 
       <main className="main-content">
-        <div className="whole">
+        
         <section className="hero">
+       
+        <div className="whole">
           <h1>Transforming</h1>
           <h1>financial services with</h1>
           <h1>innovation ∞</h1>
@@ -44,8 +46,10 @@ const App = () => {
           <div className="button2">
             <button className="get-free-btn2">Get it for free</button>
           </div>
+          </div>
+         
         </section>
-        </div>
+        
 
         <section className="widgets">
           <div className="Aimage">
@@ -66,11 +70,11 @@ const App = () => {
             </div>
             <section className="features">
           <div className="feature-card1">
-            <h3><i className="fa fa-university" style={{ fontSize: "18px", padding:"8px" }}></i>Digital Banking</h3>
+            <div className="init"><i className="fa fa-university" style={{ fontSize: "18px", padding:"8px" }}></i>Digital Banking</div>
           </div>
           <div className="feature-card2">
             
-            <h3><i className="fa fa-link" style={{ fontSize: "18px", padding:"8px" }}></i>Seamless Integration</h3>
+            <div className="init2"><i className="fa fa-link" style={{ fontSize: "18px", padding:"8px" }}></i>Seamless Integration</div>
           </div>
         </section>
           </div>

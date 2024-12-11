@@ -1,5 +1,5 @@
-/* General reset */
-body {
+ /* General reset */
+ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -34,7 +34,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   position: relative;
-  right:490px;
+  right:620px;
 }
 
 .nav {
@@ -88,14 +88,11 @@ body {
   color: #000;
   border:3px;
 }
-.whole{
-  background-color: white;
-  border-radius: 24px;
-  
-}
+
 .hero {
   text-align: center;
   margin-bottom: 2rem;
+
 }
 
 .hero h1 {
@@ -265,10 +262,6 @@ border-radius: 18px;
 }
 
 .widget h4{
-  /* background-color:#ececec;
-  border-radius: 24px;
-  height: 180px;
-  font-size: 60px; */
   top: 50px;
   position: relative;
 }
@@ -307,14 +300,12 @@ border-radius: 18px;
 }
 
 .feature-card1{
-  width:300px;
-  height: 50px; 
+  width:290px;
   top:330px;
   position: absolute;
   left:100px;
   background-color: #f8f9fa;
   border: 1px solid #ddd;
-  /* padding: 6px; */
   text-align: center;
   border-radius: 14px;
   flex: 1;
@@ -323,7 +314,6 @@ border-radius: 18px;
 
 .feature-card2{
   width:300px;
-  /* height: 700px; */
   position: absolute;
   left:230px;
   top:430px;
@@ -331,7 +321,6 @@ border-radius: 18px;
   border: 1px solid #ddd;
   text-align: center;
   border-radius: 14px;
-
   max-width: 300px;
 }
 
@@ -339,5 +328,5 @@ border-radius: 18px;
 .feature-card1 h3{
   position: relative;
   bottom: 120px;
+  font-weight: bold;
 }
-
